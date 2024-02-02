@@ -1,3 +1,5 @@
 ### Web3bridge Dapp Classwork
-### Contract address `0xC271D3209639247A99C4034AD07e1777b8c748f1`
+
+### Contract address `0x46B131E81d1fbA9BEac24482391a081dc9DC5620`
+
 # web3bridge-dapp-classwork-2

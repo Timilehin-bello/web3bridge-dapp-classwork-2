@@ -25,8 +25,8 @@ const App = () => {
       }
 
       // Set up the contract address and ABI
-      const contractAddress = "0x46B131E81d1fbA9BEac24482391a081dc9DC5620"; // Replace with the actual contract address
-      const contractABI = ContractAbi.abi; // Replace with the actual contract ABI
+      const contractAddress = "0x46B131E81d1fbA9BEac24482391a081dc9DC5620";
+      const contractABI = ContractAbi.abi;
 
       // Connect to the contract using the provider and ABI
       const myContract = new ethers.Contract(

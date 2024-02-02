@@ -31,7 +31,7 @@ const SimpleRegistry = ({ contract }) => {
       const transaction = await contract.updateAge(updateAge);
       console.log("updateAge", updateAge);
       await transaction.wait();
-      setUpdateName("");
+      setUpdateAge("");
       getEntityDetails();
     } else {
       alert("Please enter a simpleRegistry");
@@ -42,9 +42,11 @@ const SimpleRegistry = ({ contract }) => {
     <div className="">
       <div className="text-center">
         <h1>My SimpleRegistry DApp</h1>
-        <p>
-          Current Name: My name is {name} with age {age}
-        </p>
+        {name && age && (
+          <p>
+            My name is {name} i am {age.toString()} years old
+          </p>
+        )}
       </div>
       <div className="align-center">
         <input
